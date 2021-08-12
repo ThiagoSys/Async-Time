@@ -1,0 +1,14 @@
+com/rnasync/BuildConfig.java
+ com.rnasync.BuildConfig
+com/rnasync/MainActivity.java
+ com.rnasync.MainActivity
+com/rnasync/MainApplication.java
+ com.rnasync.MainApplication
+ com.rnasync.MainApplication$1
+com/rnasync/ReactNativeFlipper.java
+ com.rnasync.ReactNativeFlipper
+ com.rnasync.ReactNativeFlipper$1
+ com.rnasync.ReactNativeFlipper$2
+ com.rnasync.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

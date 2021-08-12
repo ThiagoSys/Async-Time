@@ -1,0 +1,6 @@
+module Pods_RNAsync {
+  umbrella header "Pods-RNAsync-umbrella.h"
+
+  export *
+  module * { export * }
+}
