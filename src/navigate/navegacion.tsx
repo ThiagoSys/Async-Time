@@ -12,7 +12,7 @@
  import React from 'react';
 
  import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Usuario, Time } from '../vistas';
+import { Usuario, Time, Location } from '../vistas';
 import { Icon } from 'native-base';
  
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
@@ -48,8 +48,19 @@ Ionicons.loadFont();
          options={{
            tabBarLabel:'Time',
            tabBarIcon:({color,size})=>(
-            <Icon as={AntDesign} name={'user'} color={'#C6C6C8'} fontSize={5}/>
-            // <AntDesign name='user' color={'green'} size={26}/>
+            // <Icon as={AntDesign} name={'user'} color={'#C6C6C8'} fontSize={5}/>
+            <AntDesign name='user' color={'green'} size={26}/>
+           )
+         }}
+        />
+        <Tabs.Screen
+         name='Gps'
+         component={Location}
+         options={{
+           tabBarLabel:'Gps',
+           tabBarIcon:({color,size})=>(
+            // <Icon as={AntDesign} name={'user'} color={'green'} fontSize={5}/>
+            <AntDesign name='user' color={'green'} size={26}/>
            )
          }}
         />
